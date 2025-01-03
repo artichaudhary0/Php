@@ -13,9 +13,6 @@
         $password = htmlspecialchars($_POST["password"]);
         $firstName = htmlspecialchars($_POST["firstName"]);
         $firstName = htmlspecialchars($_POST["firstName"]);
-
-
-
         echo "<p>First Name : $firstName</p>"
     }
 
